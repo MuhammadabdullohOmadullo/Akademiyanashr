@@ -1,3 +1,9 @@
+body {
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto", "Arial", sans-serif;
+letter-spacing: 0.5px;
+}
 
 .side-header {
   background-color: #fff;
@@ -42,7 +48,7 @@ background-color: #ff5700;
 .hero-heading{
 font-size: 40px;
 line-height: 1.2;
-letter-spacing: 0.5px;
+font-family: "Roboto Condenset", "Roboto", "Arial", sans-serif;
 }
 
 .hero-immg{
@@ -50,16 +56,11 @@ width: 510px;
 height: 510px;
 }
 
-.hero-text{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing:0.5px;
-}
-
 .feartures-heading{
 width: 440px;
 font-size: 72px;
 line-height: 1.2;
+font-family: "Roboto Condensed","Roboto","Arial",sans-serif;
 letter-spacing: 0.5px;
 }
 
@@ -76,13 +77,7 @@ background-color:rgba(255, 177, 0, 0.2);
 .feature-title{
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.fuature-info{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+ font-family:"Roboto Condensed","Roboto","Arial",sans-serif;
 }
 
 .promo{
@@ -96,12 +91,9 @@ width: 440px;
 .promo-heading{
 font-size: 40px;
 line-height: 48px;
+font-family:"Roboto Condensed","Roboto","Arial",sans-serif;
 }
 
-.promo-text{
-font-size: 16px;
-line-height: 1.5;
-}
 .hight-light{
 color: #ff5700;
 }
@@ -128,8 +120,6 @@ color: #ff5700;
 }
 
 .site-footer-links a {
-  font-size: 16px;
-  line-height: 19px;
   color: #252420;
   text-decoration: none;
 }
