@@ -36,6 +36,7 @@ font-family: var(--text-font)
   outline-offset: 3px;
 }
 
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -383,8 +384,15 @@ color: var(--accent-color);
 opacity: 0.6;
 }
 
-@media only screen and (max-width:1140px) {
+@media only screen and (max-width:1200px) {
+ .hero-img {
+  position: static;
+  margin-right: 300px;
+ }
+}
 
+
+@media only screen and (max-width:1140px) {
 .feature {
   width: 30%;
   margin-right: 5%;
@@ -397,13 +405,52 @@ opacity: 0.6;
 }
 
 @media only screen and (max-width:1000px) {
+  .hero-contetn {
+    flex-grow: 1;
+    margin-right: 60px;
+  }
+
+.hero-heading {
+  font-size: 36px;
+}
+
+   .hero-img {
+    width: 350px;
+    height: 350px;
+
+   }
+
   .feature {
     padding-top: 150px;
     padding-bottom: 150px;
   }
 }
 
+@media only screen and (max-width:800px) {
+ .hero-img {
+  width: 300px;
+  height: 300px;
+ }
+}
+
 @media only screen and (max-width:760px) {
+    .hero-container {
+      flex-direction: column-reverse;
+    }
+
+    .hero-contetn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 1005px;
+      margin-right: 0;
+      text-align: center;
+    }
+
+    .hero-img {
+      margin-right: 0;
+      margin-bottom: 54px;
+    }
 
   .feature {
     padding-top: 90px;
@@ -510,6 +557,11 @@ opacity: 0.6;
 
 
 @media only screen and (max-width:400px) {
+  .hero-img {
+    box-shadow: none;
+    max-width: 100%;
+    height: auto;
+  }
 
   .feature {
     padding-top: 70px;
